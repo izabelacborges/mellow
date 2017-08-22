@@ -3,7 +3,7 @@
 This is a project in order to make a code revision app.
 
 [![Stories in Ready](https://badge.waffle.io/izabelacborges/mellow.png?label=ready&title=Ready)](http://waffle.io/izabelacborges/mellow)
-[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/izabelacborges/mellow)
+[![Code Climate](https://codeclimate.com/github/izabelacborges/mellow/badges/gpa.svg)](https://codeclimate.com/github/izabelacborges/mellow)
 
 ## Technologies used
 
@@ -133,7 +133,7 @@ In Preferences > Settings, put at the end of your User Settings file the text:
 ```json
 "python.venvPath": "C:\\Virtualenvs",
  "python.pythonPath": "C:\\Virtualenvs\\mellow_env\\Scripts\\python.exe",
- "python.linting.pylintPath": "C:\\Virtualenvs\\mellow_env\Scripts\\pylint.exe",
+ "python.linting.pylintPath": "C:\\Virtualenvs\\mellow_env\\Scripts\\pylint.exe",
 ```
 
 Also, do this on your Workspace Settings file too.
@@ -147,6 +147,10 @@ You should fork this repo and clone it to your machine.
 ## Waffle.io
 
 Go to [Waffle.io](https://waffle.io/) and sign up with your GitHub account. Fortunately the project Scrum Board should load automatically.
+
+## Code Climate
+
+Our code climate board is [here](https://codeclimate.com/github/izabelacborges/mellow/). You can apply to  free open-source account [here](https://codeclimate.com/oauth_signups/new).
 
 ## Django Setup
 
