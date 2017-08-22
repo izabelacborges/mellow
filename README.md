@@ -12,6 +12,7 @@ This is a project in order to make a code revision app.
 1. VS Code
 1. GitKraken
 1. Waffle.io
+1. Code Climate
 
 ## Python Setup
 
