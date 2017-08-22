@@ -3,7 +3,7 @@
 This is a project in order to make a code revision app.
 
 [![Stories in Ready](https://badge.waffle.io/izabelacborges/mellow.png?label=ready&title=Ready)](http://waffle.io/izabelacborges/mellow)
-[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/izabelacborges/mellow)
+[![Code Climate](https://codeclimate.com/github/izabelacborges/mellow/badges/gpa.svg)](https://codeclimate.com/github/izabelacborges/mellow)
 
 ## Technologies used
 
