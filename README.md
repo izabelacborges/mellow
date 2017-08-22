@@ -2,6 +2,8 @@
 
 This is a project in order to make a code revision app.
 
+[![Stories in Ready](https://badge.waffle.io/izabelacborges/mellow.png?label=ready&title=Ready)](http://waffle.io/izabelacborges/mellow)
+
 ## Technologies used
 
 1. Python 3.6 on Django
