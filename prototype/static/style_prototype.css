@@ -15,10 +15,12 @@ input {
 
 input:focus {
   outline: none;
+  color: #85FF00
 }
 
 button:focus {
   outline: none;
+  color: #85FF00
 }
 
 @keyframes colorChanging {
@@ -67,7 +69,7 @@ button:focus {
   z-index: 4;
 }
 #logo-swap img:nth-of-type(5) {
-  animation-delay: 0;
+  animation-delay: 0s;
   position: absolute;
   z-index: 5;
 } 
