@@ -191,8 +191,6 @@ The server will be initialized in [`http://localhost:8000`](http://localhost:800
 
 ## General Guidelines
 
-* Note that pushes will be made/merged only to the `develop` branch.
+* Everytime you commit a change to this repository, you'll have to create a branch with the name of the feature and the number of the issue on github/waffle. It will be like this: `<name of the feature>-#<number of the feature>`. Example: `login-#1`.
 
-* Every card (feature) will have a branch, that when finished, will be merged to the `develop` branch.
-
-* When the `develop` branch is fully working, it will be merged into `master`.
+* When you finish the whole feature, you can make a pull request named `closes #<number of the issue>`. Code Climate will be triggered and when it finishes checking the code, you can merge branches if there's no checks to fix.
