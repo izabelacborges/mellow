@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>mellow</title>
+</head>
+<body>
+  <header>
+    <div>
+      <img src="" alt="Logo mellow">
+    </div>
+    <div>
+      <img src="" alt="Notificações">
+      <button>Logout</button>
+    </div>
+  </header>
+  <div class="row">
+    <div id="hidden-menu" class="col-md-1">
+      <img src="" alt="Abrir Menu">
+      <img src="" alt="Avatar">
+      <span>Iniciais</span>
+      <img src="" alt="Turmas">
+      <img src="" alt="Notas">
+      <img src="" alt="Chat">
+      <img src="" alt="Configurações">
+      <img src="" alt="Sobre o App">
+    </div>
+    <div class="col-md-11 content">
+      {% block content %}
+      {% endblock %}        
+    </div>
+  </div>
+</body>
+</html>

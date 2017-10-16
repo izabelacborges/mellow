@@ -1,0 +1,49 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>mellow</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:500,700|Roboto:300,400|Share+Tech+Mono">
+  <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'style.css'%}">
+</head>
+<body>
+  <header class="row">
+    <div id="logo-swap" class="col-md-3">
+      <img class="main-logo" src="../static/images/mellow-yellow.svg" alt="Mellow Logo">
+      <img class="main-logo" src="../static/images/mellow-green.svg" alt="Mellow Logo">
+      <img class="main-logo" src="../static/images/mellow-blue.svg" alt="Mellow Logo">
+      <img class="main-logo" src="../static/images/mellow-lilac.svg" alt="Mellow Logo">
+      <img class="main-logo" src="../static/images/mellow-salmon.svg" alt="Mellow Logo">
+    </div>
+    <div class="col-md-9 align-self-center">
+      <button class="btn-positive btn-right">Login</button>
+    </div>
+  </header>
+  <div class="row">
+    <span class="col-md-12 text-center solicit">Se você é um prefessor, solicite seu cadastro por <a href="">aqui</a>.</span>
+    <div class="form-box">
+      <input class="form-control" type="text" placeholder="Nome">
+      <input class="form-control" type="number" placeholder="Matrícula">
+      <input class="form-control" type="email" placeholder="E-mail">
+      <input class="form-control" type="number" placeholder="Telefone">
+      <select class="form-control" name="" id="">
+        <option value="" disabled selected>Turno</option>
+        <option value="morning">Manhã</option>
+        <option value="afternoon">Tarde</option>
+        <option value="evening">Noite</option>
+      </select>
+      <input class="form-control" type="password" placeholder="Senha">
+      <input class="form-control" type="password" placeholder="Confirmar Senha">
+      <button class="btn-positive btn-right" type="submit">Cadastrar</button>
+    </div>
+  </div>
+  <footer class="row">
+    <span id="copyright" class="col-md-12 text-right">&copy;  2017  mellow.code</span>
+  </footer>
+</body>
+</html>

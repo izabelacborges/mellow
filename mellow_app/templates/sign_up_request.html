@@ -1,0 +1,39 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>mellow</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:500,700|Roboto:300,400|Share+Tech+Mono">
+  <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'style.css'%}">
+</head>
+<body>
+  <header class="row">
+      <div id="logo-swap" class="col-md-3">
+        <img class="main-logo" src="../static/images/mellow-yellow.svg" alt="Mellow Logo">
+        <img class="main-logo" src="../static/images/mellow-green.svg" alt="Mellow Logo">
+        <img class="main-logo" src="../static/images/mellow-blue.svg" alt="Mellow Logo">
+        <img class="main-logo" src="../static/images/mellow-lilac.svg" alt="Mellow Logo">
+        <img class="main-logo" src="../static/images/mellow-salmon.svg" alt="Mellow Logo">
+      </div>
+      <div class="col-md-9 align-self-center">
+        <button class="btn-positive btn-right">Login</button>
+      </div>
+  </header>
+  <div class="row form-box">
+    <input class="form-control" type="text" placeholder="">
+    <input type="text" placeholder="">
+    <input type="text" placeholder="">
+    <span>Informe comprovação de seu status como professor da instituição.</span>
+    <input type="text" placeholder="">
+    <button type="submit">Cadastrar</button>
+  </div>
+  <footer class="row">
+    <span>Copyright</span>
+  </footer>
+</body>
+</html>
