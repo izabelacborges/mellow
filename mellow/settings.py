@@ -32,7 +32,6 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'mellow_app',
-    'prototype',
     
     'django.contrib.admin',
     'django.contrib.auth',

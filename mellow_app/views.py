@@ -3,4 +3,10 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse("<h1>Welcome to &ltmellow/&gt</h1>")
+    return render(request, 'index.html')
+
+def sign_up(request):
+    return render(request, 'sign_up.html')
+
+def sign_up_request(request):
+    return render(request, 'sign_up_request.html')
