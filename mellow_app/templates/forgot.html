@@ -1,0 +1,37 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>mellow</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:500,700|Open+Sans:300,400|Share+Tech+Mono">
+  <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'style.css'%}">
+</head>
+<body>
+  <header class="row">
+      <div id="logo-swap" class="col-md-3">
+        <img class="main-logo" src="../static/images/mellow-lilac.svg" alt="Mellow Logo">
+      </div>
+      <div>
+        <a class="btn btn-pill btn-header btn-positive" href="/">Login</a>
+      </div>
+  </header>
+  <div>
+    <div class="row">
+        <span class="col-md-12 text-center invis">spacing invisible</span>
+    </div>
+    <div class="form-box little-box">
+      <div class="label text-center down">Informe o endereço de e-mail vinculado à instituição.</div>
+      <input class="form-control center-form" type="email" placeholder="E-mail">
+      <button class="btn btn-pill btn-center btn-positive">Recuperar Senha</button>
+    </div>
+  </div>
+  <footer class="row">
+    <span id="copyright" class="col-md-12 text-right">&copy;  2017  mellow.code</span>
+  </footer>
+</body>
+</html>

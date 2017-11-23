@@ -1,0 +1,60 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>mellow</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:500,700|Open+Sans:300,400|Share+Tech+Mono">
+  <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'style.css'%}">
+</head>
+<body>
+  <header class="row">
+      <div id="logo-swap" class="col-md-3">
+        <img class="main-logo" src="../static/images/mellow-lilac.svg" alt="Mellow Logo">
+      </div>
+      <div>
+        <a class="btn btn-pill btn-header btn-positive" href="/">Login</a>
+      </div>
+  </header>
+  <div class="row">
+      <span class="col-md-12 text-center invis">spacing invisible</span>
+  </div>
+  <div class="form-box">
+    <input class="form-control" type="text" placeholder="Nome">
+    <input class="form-control" type="number" placeholder="Matrícula">
+    <input class="form-control" type="email" placeholder="E-mail">
+    <input class="form-control" type="tel" placeholder="Telefone">
+    <div class="label">Informe comprovação de seu status como professor da instituição.</div>
+    <textarea class="form-control desc input-lg" id="" cols="31" rows="5" placeholder="Descrição"></textarea>
+    <button class="btn btn-pill btn-right btn-positive">Cadastrar</button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="myLabel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <span>This is a modal</span>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="row">
+    <span id="copyright" class="col-md-12 text-right">&copy;  2017  mellow.code</span>
+  </footer>
+</body>
+</html>

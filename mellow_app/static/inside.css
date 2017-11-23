@@ -1,0 +1,87 @@
+body {
+  height: 100%;
+  background-color: #F4F7F6;
+}
+
+header {
+  height: 75px;
+  padding: 0px;
+  
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.dark-menus {
+  background-color: #282C34;
+}
+
+#side-menu {
+  height: 630px;
+}
+
+.btn-pill {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border-style: none;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn-positive {
+  background-color: #45D298;
+  color: #FFFFFF;
+}
+
+.btn-negative {
+  background-color: #D05646;
+  color: #FFFFFF;
+}
+
+.btn-action {
+  background-color: #282C34;
+  color: #FFFFFF;
+}
+
+.btn-center {
+  margin: 50px 220px;
+}
+
+.btn-header {
+  position: absolute;
+  right: 30px;
+  top: 18px;
+}
+
+.btn:hover {
+  color: #282C34;
+}
+
+.btn-action:hover {
+  color: #B8B8B8;
+}
+
+#copyright {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  position: absolute;
+  bottom: 2px;
+  font-size: 0.85em;
+  color: #979797;
+}
+
+.light-i {
+  color: #DFE0E1;
+}
+
+.dark-i {
+  color: #282C34;
+}
+
+.menu-i {
+  margin: auto;
+}
